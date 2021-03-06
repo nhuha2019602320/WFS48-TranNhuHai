@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 3 ; */
+}
+.container {
+    /* background-color: red; */
+    margin:  0 auto;
+    width: 1100px;
+}
+
+.infor {
+    padding-left: 51px;
+}
+
+.item ul {
+    list-style-type: none;
+}
+
+.infor .item {
+    display: inline-table;
+}
+
+.item1 {
+    position: relative;
+    top: -89px;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -70px;
+}
+
+h3 {
+    text-align: center;
+    background-color: hsl(192deg 98% 45%);
+    width: 1000px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.target-job .item {
+    /* position: relative;
+    top: -70px; */
+    display: inline-table;
+}
+
+.learning .item {
+    /* position: relative;
+    top: -70px; */
+    display: inline-table;
+}
+
+#hv {
+    padding-left: 46px;
+}
+.experience .item {
+    display: inline-table;
+}
+
+.title1 {
+    font-size: 20px;
+    color: hsl(192deg 98% 45%);
+}
+
+.item ul li {
+    line-height: 30px;
+}
+
+.lorem ul li {
+    line-height: 28px;
+}
+
+.lorem {
+    padding-left: 196px;
+    margin-top:-27px;
+}
+
+#conten {
+    padding-left: 177px;
+    margin-top: -25px;
+}
+
+.degree .item {
+    display: inline-table;
+}
+
+#im {
+    box-shadow: -20px -20px 0px 0px hsl(192deg 98% 45%);
+}
