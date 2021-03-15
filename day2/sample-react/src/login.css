@@ -1,0 +1,25 @@
+.login_btn {
+    text-align: center;
+    align-items: center;
+}
+.login_container {
+    background: linear-gradient(to bottom right, red, yellow);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#show {
+    color: red;
+}
+.inp {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+.btn_sign {
+    width: 100px;
+    height: 40px;
+    background-color: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
