@@ -11,6 +11,14 @@ class Main extends Component {
     goToSignUp = () => {
         this.handleRouer("/signup")//dduowngf danx
     }
+    componentDidMount() {
+        let profile = JSON.parse(localStorage.getItem('status'));
+        if(!profile) {
+            this.handRouter('/login')
+        } else {
+            this.setState({profile})
+        }
+    }
     render() {
         return (
             <div>
@@ -20,6 +28,7 @@ class Main extends Component {
                 <button onClick = {this.goToSignUp}>
                     SignUp
                 </button>
+                
             </div>
         )
     }
